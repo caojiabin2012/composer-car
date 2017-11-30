@@ -1,11 +1,11 @@
 {
-    "name": "hou/composer-car",
+    "name": "caojiabin/composer-car",
     "description": "In order to study composer",
     "license": "MIT",
     "authors": [
         {
-            "name": "GeHou",
-            "email": "8008086@gmail.com"
+            "name": "caojiabin",
+            "email": "caojiabin2012@gmail.com"
         }
     ],
     "minimum-stability": "dev",
