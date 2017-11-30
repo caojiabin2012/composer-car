@@ -1,8 +1,8 @@
-## 如何创建一个自己的 Composer/Packagist 包
+## 如何创建一个自己的 Composer/Packagist 包（原作者：https://github.com/GeHou/composer-car）
 
 首先让我们踏着欢快的脚步去Github创建一个新库，这里取名 `composer-car`，又欢快的将它克隆到本地：
 
-    git clone https://github.com/GeHou/composer-car.git
+    git clone https://github.com/caojiabin2012/composer-car.git
 
     cd composer-car
 
@@ -28,13 +28,13 @@
     Would you like to define your dev dependencies (require-dev) interactively [yes]? no
 
     {
-        "name": "hou/composer-car",
+        "name": "caojiabin/composer-car",
         "description": "In order to study composer",
         "license": "MIT",
         "authors": [
             {
-                "name": "GeHou",
-                "email": "***@gmail.com"
+                "name": "caojiabin",
+                "email": "caojiabin2012@gmail.com"
             }
         ],
         "minimum-stability": "dev",
@@ -49,13 +49,13 @@
 虽然经过以上的一番挣扎生成了composer.json文件，不过我们还得往里面加点东西。使用你熟悉的编辑器打开composer.json文件修改至如下：
 
     {
-        "name": "hou/composer-car",
+        "name": "caojiabin/composer-car",
         "description": "In order to study composer",
         "license": "MIT",
         "authors": [
             {
-                "name": "GeHou",
-                "email": "***@gmail.com"
+                "name": "caojiabin",
+                "email": "caojiabin2012@gmail.com"
             }
         ],
         "minimum-stability": "dev",
@@ -305,7 +305,7 @@ ok，再次提交代码：
 
 类似这样的神秘信息又在屏幕上一闪而过，实际上因为网络的缘故，有时候得闪好久～
 
-不管怎么闪，更新成功后你就应该在 `test-auto-update/vendor/hou/composer-car/src/Ford/Fiesta/` 文件夹下中找到新的 `Fiesta2014.php` 文件了。不过这里需要注意一点，有时候Packagist与Github之间的同步可能会出现延迟，这时不妨喝杯咖啡、找妹子聊会、扣扣鼻孔之类的噼里啪啦一会再回来试试更新操作。
+不管怎么闪，更新成功后你就应该在 `test-auto-update/vendor/caojiabin/composer-car/src/Ford/Fiesta/` 文件夹下中找到新的 `Fiesta2014.php` 文件了。不过这里需要注意一点，有时候Packagist与Github之间的同步可能会出现延迟，这时不妨喝杯咖啡、找妹子聊会、扣扣鼻孔之类的噼里啪啦一会再回来试试更新操作。
 
 好吧我们在 test-auto-update 根目录下新建一个 index.php 文件看看是否能跑起来，文件内容其实跟前面的show.php差不了多少：
 
@@ -331,7 +331,7 @@ PSR-4规范  <https://github.com/php-fig/fig-standards/blob/master/proposed/psr-
 
 本文示例
 
-<https://github.com/GeHou/composer-car>
+<https://github.com/caojiabin2012/composer-car>
 
-<https://packagist.org/packages/hou/composer-car>
+<https://packagist.org/packages/caojiabin/composer-car>
 
